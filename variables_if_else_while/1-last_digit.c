@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints the last digit of a randomly generated number and a text
- *        based on its value
+ * main - Prints the last digit of a randomly generated number
+ *        and provides text based on its value
  *
  * Return: Always 0 (Success)
  */
