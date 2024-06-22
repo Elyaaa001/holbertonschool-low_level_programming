@@ -1,21 +1,14 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+void print_alphabet(void);
+
+#endif /* MAIN_H */
 #include <stdio.h>
+#include "main.h"
 
-/**
- * main - print the letters of the alphabet
- *
- * Description: print the letters of the alphabet
- *
- * Return: Always 0 (Success)
- */
-
-int main(void)
+int _putchar(char c)
 {
-		char letter;
-
-			for (letter = 'a'; letter <= 'z'; letter++)
-						putchar(letter);
-
-				putchar('\n');
-
-					return (0);
+	    return putchar(c);
 }
