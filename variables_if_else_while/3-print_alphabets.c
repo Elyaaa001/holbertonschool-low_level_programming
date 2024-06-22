@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
-
-
+ *  * main - Prints the last digit of a randomly generated number and a text
+ *   *        based on its value
+ *    *
+ *     * Return: Always 0 (Success)
+ *      */
 int main(void)
 {
 	char a;
