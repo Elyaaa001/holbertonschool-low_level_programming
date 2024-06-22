@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
-* main - print last digit in random number
-*
-* Description: print last digit in random number
-*
-* Return: Always 0 (Success)
-*/
-
+ *  * main - Prints the last digit of a randomly generated number and a text
+ *   *        based on its value
+ *    *
+ *     * Return: Always 0 (Success)
+ *      */
 int main(void)
 {
 		int n, last;
