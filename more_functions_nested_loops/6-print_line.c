@@ -1,7 +1,10 @@
 #include "main.h"
+
 /**
- * print_line - draws a straight line in the terminal
- */
+*print_line - prints a straight line
+*@n:parameter
+*Return:returns nothing
+*/
 void print_line(int n)
 {
 while (n-- > 0)
