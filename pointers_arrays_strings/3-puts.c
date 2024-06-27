@@ -9,7 +9,8 @@
 void _puts(char *str)
 {
 	int i = 0;
-	char *array = str, letter;
+	char *array = str;
+	char letter;
 
 	while (array[i] != '\0')
 	{
