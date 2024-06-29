@@ -1,35 +1,29 @@
 #include "main.h"
 
 /**
-*_atoi - function that convert a string to an integer.
-*@s: Pointer to a character string.
-*Return: void.
-*/
+ * _atoi- converts a string to an integer
+ * @s : the string to be converted
+ * Return: the integer value of the converted string
+ *
+ */
 
-// First we have to define symbol of number - or +
-//then we have to define numbers itself
-//at the end of story we should multiple sign and num for return true value;
 int _atoi(char *s)
 {
-	int sign;
-	unsigned int num;
-	char *temp;
+	int sign = 1;
+	unsigned int num = 0;
 
-	temp = s;
-	num = 0;
-	sign = 1;
-	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
-	{
-		if (*temp == '-')
+	do {
+		if (*s == '-')
 			sign *= -1;
-		temp++;
+
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+
+		else if (num > 0)
+			break;
 	}
-	if (*temp != '\0')
-	{
-		do {
-			num = num * 10 + (*temp - '0');
-			temp++;
-		} while (*temp >= '0' && *temp <= '9');
-	}
+
+	while (*s++);
 	return (num * sign);
 }
+
