@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+char *_memset(char *s, char b, unsigned int n);
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -15,5 +15,9 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
 
 #endif 
