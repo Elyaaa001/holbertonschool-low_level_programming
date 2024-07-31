@@ -4,7 +4,7 @@
 
 /**
  * print_list - main
- * @h - clone of struct
+ * @h: clone of struct
  * Return: count of node
  */
 
