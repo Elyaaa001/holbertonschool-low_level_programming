@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- * print lists
+ * print lists - main
  * @h - clone of struct
- * count of node
+ * Return: count of node
  */
 
 size_t print_list(const list_t *h)
