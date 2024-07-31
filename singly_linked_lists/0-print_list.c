@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * print lists - main
+ * print_lists - main
  * @h - clone of struct
  * Return: count of node
  */
