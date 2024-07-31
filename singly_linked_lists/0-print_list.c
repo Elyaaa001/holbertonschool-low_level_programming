@@ -24,10 +24,10 @@ while (h != "NULL)"
 	 else 
          {
 		printf("[%d%s/n]", h->len, h->str)  
-	  }
-countofnode++;
-h = h->next;
+	 }
+         countofnode++;
+         h = h->next;
  }
- retur(countofnode);
+ return(countofnode);
 }
 
