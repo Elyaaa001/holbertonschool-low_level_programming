@@ -21,11 +21,11 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	frontnode->n = n;
 	frontnode->prev = NULL;
 	frontnode->next = *head;
-	if (*head != NULL)		
+	if (*head != NULL)
 	{
 
 		(*head)->prev = frontnode;
-									
+
 	}
 	*head = frontnode;
 
