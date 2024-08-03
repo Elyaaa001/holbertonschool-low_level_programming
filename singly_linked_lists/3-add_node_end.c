@@ -20,14 +20,14 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (duplicate_str == NULL)
 	{
 		free(th1node);
-		return (NULL);	
+		return (NULL);
 	}
 	if (th1node == NULL)
 		return (NULL);
 	while (str[index] != '\0')
 	{
 		length_nodedata++;
-		index++;					
+		index++;
 	}
 	th1node->str = duplicate_str;
 	th1node->len = length_nodedata;
@@ -40,12 +40,12 @@ list_t *add_node_end(list_t **head, const char *str)
 		th2node = *head;
 
 		while (th2node->next != NULL)
-		{								
+		{
 			th2node = th2node->next;
-		}								
-		th2node->next = th1node;					
+		}
+		th2node->next = th1node;
 	}
-		
+
 	return (*head);
 
 }
