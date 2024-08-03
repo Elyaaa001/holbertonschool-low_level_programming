@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * add node - main
- * head is for linked list
- * str: var1
+ * add_node_end - main
+ * @head: for linked list
+ * @str: var1
  * Return: linked lists
  */
 
