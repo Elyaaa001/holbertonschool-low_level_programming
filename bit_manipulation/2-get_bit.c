@@ -1,5 +1,7 @@
 #include "main.h"
-/*get -  returns the value of a bit at a given index
+/**
+ *
+ *get_bit -  returns the value of a bit at a given index
  *@index: index is the index, starting from 0 of the bit you want to get
  * @n: given value
  *
