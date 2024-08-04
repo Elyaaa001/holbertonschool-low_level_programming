@@ -22,12 +22,12 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			return (-1);
 		clone = clone->next;
 	}
-	if (clone == *head)	
+	if (clone == *head)
 	{
 		*head = clone->next;
-		if (*head != NULL)	
+		if (*head != NULL)
 			(*head)->prev = NULL;
-									
+
 	}
 	else
 	{
