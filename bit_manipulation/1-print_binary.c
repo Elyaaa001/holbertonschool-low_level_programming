@@ -12,8 +12,8 @@ void print_binary(unsigned long int n)
 	while (bit_position >= 0)
 	{
 		if (n & (bin << bit_position))
-										
-		{	
+
+		{
 			while (bit_position >= 0)
 
 			{
